@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login / Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Lado esquerdo (imagem) -->
+        <div class="left-side">
+            <img src="img/Ilustracao-compras.jpg" alt="Imagem ilustrativa">
+        </div>
+
+        <!-- Lado direito (formulários) -->
+        <div class="right-side">
+            <div class="form-box">
+
+                <div class="button-box">
+                    <button id="btn-login" class="toggle-btn active">Login</button>
+                    <button id="btn-register" class="toggle-btn">Cadastro</button>
+                </div>
+
+                <!-- Formulário de Login -->
+                <form id="login-form" class="form active">
+                    <h2>Entrar</h2>
+
+                    <div class="input-group">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="login-password" placeholder="Senha" required>
+                        <i class="fa-solid fa-eye-slash toggle-password"></i>
+                    </div>
+
+                    <button type="submit" class="btn">Login</button>
+
+                    <div class="social-login">
+                        <p>ou entre com</p>
+                        <div class="social-buttons">
+                            <button class="social-btn google-btn">
+                                <img src="img/google-logo.svg" alt="Google Logo" class="google-logo"> Google
+                            </button>
+                            <button class="social-btn facebook-btn">
+                                <i class="fa-brands fa-facebook fa-lg"></i> Facebook
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Formulário de Cadastro -->
+                <form id="register-form" class="form">
+                    <h2>Criar Conta</h2>
+
+                    <div class="input-group">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nome completo" required>
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="register-password" placeholder="Senha" required>
+                        <i class="fa-solid fa-eye-slash toggle-password"></i>
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="register-confirm" placeholder="Confirmar Senha" required>
+                        <i class="fa-solid fa-eye-slash toggle-password"></i>
+                    </div>
+
+                    <button type="submit" class="btn">Cadastrar</button>
+
+                    <div class="social-login">
+                        <p>ou cadastre-se com</p>
+                        <div class="social-buttons">
+                            <button class="social-btn google-btn">
+                                <img src="img/google-logo.svg" alt="Google Logo" class="google-logo"> Google
+                            </button>
+                            <button class="social-btn facebook-btn">
+                                <i class="fa-brands fa-facebook fa-lg"></i> Facebook
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
