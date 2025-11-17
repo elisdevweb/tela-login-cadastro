@@ -1,8 +1,8 @@
-# 🖥️ Tela de Login e Cadastro para e-commerce
+# Tela de Login e Cadastro para e-commerce
 
 Uma tela de login fictícia para uma loja online, criada para demonstrar a experiência de autenticação do usuário com um design moderno, intuitivo e responsivo.
 
-👉 <b>Acesse aqui:</b> https://elisdevweb.github.io/tela-login-cadastro/
+<b>Acesse aqui:</b> https://elisdevweb.github.io/tela-login-cadastro/
 
 ##  Funcionalidades
 - Login com email e senha<br>
